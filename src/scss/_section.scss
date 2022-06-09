@@ -1,0 +1,74 @@
+.section {
+    max-width: 1440px;
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+
+    &__background {
+
+
+        background: url('../../images/sean-o-KMn4VEeEPR8-unsplash_1_s6zmfh_c_scale\,w_1400.jpg');
+        margin-top: 96px;
+        width: 505px;
+        height: 330px;
+        background-size: cover;
+        margin-left: 230px;
+    }
+
+
+    &__content {
+        margin-top: 136px;
+        margin-left: 95px;
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__title {
+
+        width: 380px;
+        height: 50px;
+        left: calc(50% - 380px/2 + 300px);
+        top: calc(50% - 50px/2 - 319px);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 120%;
+        color: #121212;
+    }
+
+    &__description {
+        color: #121212;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+    &__button {
+        margin-top: 32px;
+        padding: 16px 40px;
+        background: #E4C1AE;
+        border-radius: 32px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 100%;
+        color: #FFFFFF;
+        width: 128px;
+        height: 48px;
+        border: none;
+
+        &:hover {
+            color: black;
+            background-color: orange;
+            cursor: pointer;
+        }
+    }
+
+
+
+}
